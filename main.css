@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 10px solid black;
+    padding: 100px;
+    width: 800px;
+    /* flebox */
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1em; */
+
+    /* gives two axes for an container
+    main axis
+    row -horizontal  main axis
+    column - vertical main axis
+    defalt is row
+    justicy-content - align for main axis
+    align-items - to align for horizontal axis
+    flex-wrap fits items if space left
+    align-content - only works if flex is wraped
+     */
+}
+
+.item-3 {
+    /* flex-grow: 1;
+    lets item grow if empty space is left */
+    /* flex-shrink: 5; */
+    /* flex-basis: 0; */
+    /* flex: 1;
+    shortcut of all is flex */
+    /* align-self: center; */
+    /* order: -1
+    change order of html tag */
+}
+
+.item {
+    border: 10px solid red;
+    width: 150px;
+    height: 150px;
+}
