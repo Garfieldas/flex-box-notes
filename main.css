@@ -45,7 +45,8 @@ body {
     shortcut of all is flex */
     /* align-self: center; */
     /* order: -1
-    change order of html tag */
+    change order of html tag
+    flex - shorhand for flex-grow,flex-shrink and flex-basis */
 }
 
 .item {
